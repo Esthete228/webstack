@@ -1,0 +1,156 @@
+/* styles.css */
+
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+td:last-child {
+    text-align: center;
+}
+
+/* Content styles */
+.content {
+    padding: 20px;
+}
+
+.container {
+    margin-top: 50px;
+    text-align: center; /* Центруємо зміст */
+}
+
+.container h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.container p {
+    color: #555;
+}
+
+/* Стилізація контейнера пошуку */
+.search-container {
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+/* Стилізація контейнера списку користувачів з прокруткою */
+.user-list-container {
+    max-height: 300px; /* Задайте бажану максимальну висоту */
+    overflow-y: auto; /* Додаємо вертикальну прокрутку при необхідності */
+}
+
+/* Стилізація контейнера додавання нового користувача */
+.add-user-container {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] { /* Включаємо також стилі для кнопки Submit */
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+button[type="submit"] { /* Стилізуємо кнопку Submit */
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #333;
+    align-self: center;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+a button {
+    background-color: #ccc;
+    color: #333;
+    align-self: center;
+}
+
+a button:hover {
+    background-color: #ddd;
+}
+
+/* Стилізація кнопки "Remove" */
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
